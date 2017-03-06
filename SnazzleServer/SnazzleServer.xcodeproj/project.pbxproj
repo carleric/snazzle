@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D36E6D8B1E6CFF3E00BFF784 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D36E6D8A1E6CFF3E00BFF784 /* AppDelegate.m */; };
+		D36E6D8E1E6CFF3E00BFF784 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D36E6D8D1E6CFF3E00BFF784 /* main.m */; };
+		D36E6D911E6CFF3E00BFF784 /* SnazzleServer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D36E6D8F1E6CFF3E00BFF784 /* SnazzleServer.xcdatamodeld */; };
+		D36E6D931E6CFF3E00BFF784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36E6D921E6CFF3E00BFF784 /* Assets.xcassets */; };
+		D36E6DA11E6CFF3E00BFF784 /* SnazzleServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D36E6DA01E6CFF3E00BFF784 /* SnazzleServerTests.m */; };
+		D36E6DAC1E6CFF3E00BFF784 /* SnazzleServerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D36E6DAB1E6CFF3E00BFF784 /* SnazzleServerUITests.m */; };
+		D39E17101E6D0B3B00E31811 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39E170F1E6D0B3B00E31811 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D36E6D9D1E6CFF3E00BFF784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36E6D7E1E6CFF3E00BFF784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36E6D851E6CFF3E00BFF784;
+			remoteInfo = SnazzleServer;
+		};
+		D36E6DA81E6CFF3E00BFF784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36E6D7E1E6CFF3E00BFF784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36E6D851E6CFF3E00BFF784;
+			remoteInfo = SnazzleServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D36E6D861E6CFF3E00BFF784 /* SnazzleServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnazzleServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36E6D891E6CFF3E00BFF784 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D36E6D8A1E6CFF3E00BFF784 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D36E6D8D1E6CFF3E00BFF784 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D36E6D901E6CFF3E00BFF784 /* SnazzleServer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnazzleServer.xcdatamodel; sourceTree = "<group>"; };
+		D36E6D921E6CFF3E00BFF784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36E6D971E6CFF3E00BFF784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36E6D9C1E6CFF3E00BFF784 /* SnazzleServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnazzleServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36E6DA01E6CFF3E00BFF784 /* SnazzleServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnazzleServerTests.m; sourceTree = "<group>"; };
+		D36E6DA21E6CFF3E00BFF784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36E6DA71E6CFF3E00BFF784 /* SnazzleServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnazzleServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36E6DAB1E6CFF3E00BFF784 /* SnazzleServerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnazzleServerUITests.m; sourceTree = "<group>"; };
+		D36E6DAD1E6CFF3E00BFF784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39E170F1E6D0B3B00E31811 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36E6D831E6CFF3E00BFF784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36E6D991E6CFF3E00BFF784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36E6DA41E6CFF3E00BFF784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D36E6D7D1E6CFF3E00BFF784 = {
+			isa = PBXGroup;
+			children = (
+				D36E6D881E6CFF3E00BFF784 /* SnazzleServer */,
+				D36E6D9F1E6CFF3E00BFF784 /* SnazzleServerTests */,
+				D36E6DAA1E6CFF3E00BFF784 /* SnazzleServerUITests */,
+				D36E6D871E6CFF3E00BFF784 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D36E6D871E6CFF3E00BFF784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36E6D861E6CFF3E00BFF784 /* SnazzleServer.app */,
+				D36E6D9C1E6CFF3E00BFF784 /* SnazzleServerTests.xctest */,
+				D36E6DA71E6CFF3E00BFF784 /* SnazzleServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36E6D881E6CFF3E00BFF784 /* SnazzleServer */ = {
+			isa = PBXGroup;
+			children = (
+				D36E6D891E6CFF3E00BFF784 /* AppDelegate.h */,
+				D36E6D8A1E6CFF3E00BFF784 /* AppDelegate.m */,
+				D36E6D921E6CFF3E00BFF784 /* Assets.xcassets */,
+				D36E6D971E6CFF3E00BFF784 /* Info.plist */,
+				D36E6D8F1E6CFF3E00BFF784 /* SnazzleServer.xcdatamodeld */,
+				D36E6D8C1E6CFF3E00BFF784 /* Supporting Files */,
+				D39E170F1E6D0B3B00E31811 /* MainMenu.xib */,
+			);
+			path = SnazzleServer;
+			sourceTree = "<group>";
+		};
+		D36E6D8C1E6CFF3E00BFF784 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D36E6D8D1E6CFF3E00BFF784 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D36E6D9F1E6CFF3E00BFF784 /* SnazzleServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D36E6DA01E6CFF3E00BFF784 /* SnazzleServerTests.m */,
+				D36E6DA21E6CFF3E00BFF784 /* Info.plist */,
+			);
+			path = SnazzleServerTests;
+			sourceTree = "<group>";
+		};
+		D36E6DAA1E6CFF3E00BFF784 /* SnazzleServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D36E6DAB1E6CFF3E00BFF784 /* SnazzleServerUITests.m */,
+				D36E6DAD1E6CFF3E00BFF784 /* Info.plist */,
+			);
+			path = SnazzleServerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D36E6D851E6CFF3E00BFF784 /* SnazzleServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36E6DB01E6CFF3E00BFF784 /* Build configuration list for PBXNativeTarget "SnazzleServer" */;
+			buildPhases = (
+				D36E6D821E6CFF3E00BFF784 /* Sources */,
+				D36E6D831E6CFF3E00BFF784 /* Frameworks */,
+				D36E6D841E6CFF3E00BFF784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnazzleServer;
+			productName = SnazzleServer;
+			productReference = D36E6D861E6CFF3E00BFF784 /* SnazzleServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D36E6D9B1E6CFF3E00BFF784 /* SnazzleServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36E6DB31E6CFF3E00BFF784 /* Build configuration list for PBXNativeTarget "SnazzleServerTests" */;
+			buildPhases = (
+				D36E6D981E6CFF3E00BFF784 /* Sources */,
+				D36E6D991E6CFF3E00BFF784 /* Frameworks */,
+				D36E6D9A1E6CFF3E00BFF784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36E6D9E1E6CFF3E00BFF784 /* PBXTargetDependency */,
+			);
+			name = SnazzleServerTests;
+			productName = SnazzleServerTests;
+			productReference = D36E6D9C1E6CFF3E00BFF784 /* SnazzleServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D36E6DA61E6CFF3E00BFF784 /* SnazzleServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36E6DB61E6CFF3E00BFF784 /* Build configuration list for PBXNativeTarget "SnazzleServerUITests" */;
+			buildPhases = (
+				D36E6DA31E6CFF3E00BFF784 /* Sources */,
+				D36E6DA41E6CFF3E00BFF784 /* Frameworks */,
+				D36E6DA51E6CFF3E00BFF784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36E6DA91E6CFF3E00BFF784 /* PBXTargetDependency */,
+			);
+			name = SnazzleServerUITests;
+			productName = SnazzleServerUITests;
+			productReference = D36E6DA71E6CFF3E00BFF784 /* SnazzleServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36E6D7E1E6CFF3E00BFF784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Carl Bolstad";
+				TargetAttributes = {
+					D36E6D851E6CFF3E00BFF784 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					D36E6D9B1E6CFF3E00BFF784 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D36E6D851E6CFF3E00BFF784;
+					};
+					D36E6DA61E6CFF3E00BFF784 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D36E6D851E6CFF3E00BFF784;
+					};
+				};
+			};
+			buildConfigurationList = D36E6D811E6CFF3E00BFF784 /* Build configuration list for PBXProject "SnazzleServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D36E6D7D1E6CFF3E00BFF784;
+			productRefGroup = D36E6D871E6CFF3E00BFF784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36E6D851E6CFF3E00BFF784 /* SnazzleServer */,
+				D36E6D9B1E6CFF3E00BFF784 /* SnazzleServerTests */,
+				D36E6DA61E6CFF3E00BFF784 /* SnazzleServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36E6D841E6CFF3E00BFF784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36E6D931E6CFF3E00BFF784 /* Assets.xcassets in Resources */,
+				D39E17101E6D0B3B00E31811 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36E6D9A1E6CFF3E00BFF784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36E6DA51E6CFF3E00BFF784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36E6D821E6CFF3E00BFF784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36E6D8E1E6CFF3E00BFF784 /* main.m in Sources */,
+				D36E6D8B1E6CFF3E00BFF784 /* AppDelegate.m in Sources */,
+				D36E6D911E6CFF3E00BFF784 /* SnazzleServer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36E6D981E6CFF3E00BFF784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36E6DA11E6CFF3E00BFF784 /* SnazzleServerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36E6DA31E6CFF3E00BFF784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36E6DAC1E6CFF3E00BFF784 /* SnazzleServerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D36E6D9E1E6CFF3E00BFF784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36E6D851E6CFF3E00BFF784 /* SnazzleServer */;
+			targetProxy = D36E6D9D1E6CFF3E00BFF784 /* PBXContainerItemProxy */;
+		};
+		D36E6DA91E6CFF3E00BFF784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36E6D851E6CFF3E00BFF784 /* SnazzleServer */;
+			targetProxy = D36E6DA81E6CFF3E00BFF784 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D36E6DAE1E6CFF3E00BFF784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D36E6DAF1E6CFF3E00BFF784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D36E6DB11E6CFF3E00BFF784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnazzleServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skogtek.SnazzleServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D36E6DB21E6CFF3E00BFF784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnazzleServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skogtek.SnazzleServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D36E6DB41E6CFF3E00BFF784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnazzleServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skogtek.SnazzleServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnazzleServer.app/Contents/MacOS/SnazzleServer";
+			};
+			name = Debug;
+		};
+		D36E6DB51E6CFF3E00BFF784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnazzleServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skogtek.SnazzleServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnazzleServer.app/Contents/MacOS/SnazzleServer";
+			};
+			name = Release;
+		};
+		D36E6DB71E6CFF3E00BFF784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnazzleServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skogtek.SnazzleServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnazzleServer;
+			};
+			name = Debug;
+		};
+		D36E6DB81E6CFF3E00BFF784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnazzleServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skogtek.SnazzleServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnazzleServer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36E6D811E6CFF3E00BFF784 /* Build configuration list for PBXProject "SnazzleServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36E6DAE1E6CFF3E00BFF784 /* Debug */,
+				D36E6DAF1E6CFF3E00BFF784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36E6DB01E6CFF3E00BFF784 /* Build configuration list for PBXNativeTarget "SnazzleServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36E6DB11E6CFF3E00BFF784 /* Debug */,
+				D36E6DB21E6CFF3E00BFF784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36E6DB31E6CFF3E00BFF784 /* Build configuration list for PBXNativeTarget "SnazzleServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36E6DB41E6CFF3E00BFF784 /* Debug */,
+				D36E6DB51E6CFF3E00BFF784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36E6DB61E6CFF3E00BFF784 /* Build configuration list for PBXNativeTarget "SnazzleServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36E6DB71E6CFF3E00BFF784 /* Debug */,
+				D36E6DB81E6CFF3E00BFF784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D36E6D8F1E6CFF3E00BFF784 /* SnazzleServer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D36E6D901E6CFF3E00BFF784 /* SnazzleServer.xcdatamodel */,
+			);
+			currentVersion = D36E6D901E6CFF3E00BFF784 /* SnazzleServer.xcdatamodel */;
+			path = SnazzleServer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D36E6D7E1E6CFF3E00BFF784 /* Project object */;
+}
