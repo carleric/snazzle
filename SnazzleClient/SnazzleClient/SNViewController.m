@@ -54,7 +54,7 @@
    
    //[nsb searchForRegistrationDomains];
    //[nsb searchForBrowsableDomains];
-   [self.serviceBrowser searchForServicesOfType:@"_http._tcp" inDomain:@"local."];
+   [self.serviceBrowser searchForServicesOfType:@"_snazzle._tcp" inDomain:@"local."];
    
    self.searchTimer = [NSTimer scheduledTimerWithTimeInterval:5.0 repeats:NO block:^(NSTimer * _Nonnull timer) {
       [self.serviceBrowser stop];
